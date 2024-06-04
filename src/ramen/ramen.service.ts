@@ -38,6 +38,7 @@ export class RamenService {
         return availableBroths
     }
 
+    //Retornar o array com as proteínas disponíveis
     getProteins(){
         const availableProteins: ProteinsDTO[] = [
             {
